@@ -1,5 +1,17 @@
 [
   {
+    "titel": "Toller Lehrgang auf unserer Anlage",
+    "date": "2026-07-20",
+    "kurztext": "Ein schöner und lehrreicher Tag mit vielen engagierten Teilnehmerinnen und Teilnehmern.",
+    "text": [
+      "Wir hatten einen schönen und lehrreichen Lehrgang mit Max Mustermann auf unserer Anlage. Mit hilfreichen Impulsen und abwechslungsreichen Übungen wurde der Tag zu einer rundum gelungenen Veranstaltung.",
+      "Wir haben uns sehr über die engagierte Teilnahme gefreut und bedanken uns bei allen, die dabei waren."
+    ],
+    "image": "assets/aktuelles/lehrgang-max-mustermann-2026-07-20.webp",
+    "alt": "Illustrative Darstellung von vier Reiterinnen auf Pferden bei einem Lehrgang mit einem Trainer in einer überdachten Reitanlage",
+    "demo": true
+  },
+  {
     "titel": "Demo: Ein neuer Weidebereich entsteht",
     "date": "2026-07-20",
     "kurztext": "Mehr Bewegung, klare Wege und ein ruhiger Übergang zwischen Stall und Weide: Diese Demo zeigt, wie Neuigkeiten künftig präsentiert werden.",
