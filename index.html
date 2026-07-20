@@ -3,47 +3,93 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Test-Webseite für den Reitstall Tempel">
-  <title>Reitstall Tempel | Test-Webseite</title>
+  <meta name="description" content="Anonyme Konzeptseite für ein digitales Stallportal. Alle Inhalte und Funktionen sind Demo-Daten.">
+  <meta name="robots" content="noindex,nofollow,noarchive">
+  <title>equiio demo — der Stall, neu gedacht</title>
   <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
-  <div class="test-banner">Test-Webseite – noch nicht offiziell</div>
-  <header class="hero" id="start">
-    <nav class="nav" aria-label="Hauptnavigation">
-      <a class="logo" href="#start">Reitstall Tempel</a>
-      <div class="nav-links">
-        <a href="#ueber-uns">Über uns</a>
-        <a href="#leistungen">Leistungen</a>
-        <a href="#kontakt">Kontakt</a>
-      </div>
+  <div class="demo-bar">Interaktive Konzeptseite · keine echte Buchung · keine Datenerfassung</div>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="equiio demo Startseite"><span>e</span>equiio <small>demo</small></a>
+    <button class="menu-button" aria-expanded="false" aria-controls="main-nav">Menü</button>
+    <nav id="main-nav" aria-label="Hauptnavigation">
+      <a href="#erlebnis">Erlebnis</a><a href="#stall-live">Stall live</a><a href="#services">Services</a><a href="#konzept">Konzept</a>
     </nav>
-    <div class="hero-content">
-      <p class="eyebrow">Willkommen auf dem Hof</p>
-      <h1>Ein guter Ort<br>für Pferd und Mensch.</h1>
-      <p class="intro">Persönliche Betreuung, ruhige Atmosphäre und viel Raum für ein harmonisches Miteinander.</p>
-      <a class="button" href="#leistungen">Unser Angebot</a>
-    </div>
+    <a class="nav-cta" href="#hufschmied">Termin testen</a>
   </header>
-  <main>
-    <section class="about" id="ueber-uns">
-      <div><p class="eyebrow">Über uns</p><h2>Mit Herz und Erfahrung</h2></div>
-      <p>Diese Seite ist ein erster technischer Test. Später können hier echte Informationen über den Reitstall, das Team und die Anlage stehen.</p>
+
+  <main id="top">
+    <section class="hero">
+      <img src="assets/hero-pferde.png" alt="Zwei Pferde auf einer morgendlichen Weide vor einem modernen Stall">
+      <div class="hero-shade"></div>
+      <div class="hero-copy reveal">
+        <p class="kicker">Pferdehaltung. Persönlich. Digital.</p>
+        <h1>Der Stall,<br><em>neu gedacht.</em></h1>
+        <p>Ein ruhiger Ort für Pferde. Ein klarer Überblick für Menschen. equiio verbindet moderne Haltung mit smartem Stallalltag.</p>
+        <div class="hero-actions"><a class="button primary" href="#stall-live">Stall live erleben</a><a class="button ghost" href="#konzept">Konzept entdecken</a></div>
+      </div>
+      <div class="hero-facts"><div><strong>24/7</strong><span>Überblick</span></div><div><strong>100%</strong><span>Demo-Modus</span></div><div><strong>0</strong><span>Tracking</span></div></div>
     </section>
-    <section class="services" id="leistungen">
-      <p class="eyebrow">Leistungen</p><h2>Was wir anbieten</h2>
-      <div class="cards">
-        <article><span>01</span><h3>Pferdepension</h3><p>Ein verlässliches Zuhause mit individueller Betreuung.</p></article>
-        <article><span>02</span><h3>Reitunterricht</h3><p>Ruhiges und verständliches Lernen für verschiedene Niveaus.</p></article>
-        <article><span>03</span><h3>Weideservice</h3><p>Gut organisierter Auslauf und viel Zeit an der frischen Luft.</p></article>
+
+    <section class="intro section" id="erlebnis">
+      <div class="section-label">01 · Das Erlebnis</div>
+      <div class="intro-grid reveal"><h2>Mehr Zeit fürs Pferd.<br><span>Weniger Organisation.</span></h2><p>Eine Vision für einen Stall, in dem Information einfach fließt: Weidestatus, Wetter und Termine an einem Ort — klar, freundlich und für jeden verständlich.</p></div>
+      <div class="feature-grid">
+        <article class="feature-card reveal"><div class="feature-icon">♞</div><h3>Pferdegerecht</h3><p>Das Wohlbefinden steht im Mittelpunkt — digital unterstützt, menschlich entschieden.</p><span>Haltung mit Haltung</span></article>
+        <article class="feature-card reveal"><div class="feature-icon">◉</div><h3>Transparent</h3><p>Wichtige Informationen sind sofort sichtbar, ohne Anrufe und ohne Zettelwirtschaft.</p><span>Alles im Blick</span></article>
+        <article class="feature-card reveal"><div class="feature-icon">⌁</div><h3>Vernetzt</h3><p>Stallteam, Einsteller und Dienstleister könnten sinnvoll zusammenarbeiten.</p><span>Ein gemeinsamer Ort</span></article>
       </div>
     </section>
-    <section class="contact" id="kontakt">
-      <p class="eyebrow">Kontakt</p><h2>Lernen Sie uns kennen</h2>
-      <p>Die echten Kontaktdaten ergänzen wir erst, wenn aus der Testseite die offizielle Webseite wird.</p>
-      <a class="button button-light" href="mailto:test@example.com">Test-E-Mail öffnen</a>
+
+    <section class="live-section section" id="stall-live">
+      <div class="section-label light">02 · Stall live <span class="live-dot">Demo</span></div>
+      <div class="live-heading reveal"><div><p class="kicker">Guten Morgen im Stall</p><h2>Heute fühlt sich<br>nach Weide an.</h2></div><p id="live-time">Demo-Stand · wird lokal aktualisiert</p></div>
+      <div class="dashboard">
+        <article class="weather-card reveal">
+          <div class="card-top"><span>Wetter am Hof</span><span class="mock">Beispieldaten</span></div>
+          <div class="weather-main"><div class="weather-symbol">☀</div><strong>18°</strong><div><b>Sonnig</b><small>Gefühlt 17°</small></div></div>
+          <div class="weather-details"><div><span>Regen</span><b>5%</b></div><div><span>Wind</span><b>9 km/h</b></div><div><span>Weide</span><b>ideal</b></div></div>
+          <p>Keine Wetter-API verbunden. Die Werte dienen ausschließlich der Vorführung.</p>
+        </article>
+        <article class="pasture-card reveal">
+          <div class="card-top"><span>Weidegang</span><span class="status-open">● geöffnet</span></div>
+          <div class="pasture-visual"><div class="sun"></div><div class="hill h1"></div><div class="hill h2"></div><span class="horse">♞</span></div>
+          <div class="pasture-info"><div><strong id="pasture-count">12</strong><span>Pferde draußen</span></div><button id="pasture-demo" type="button">Status simulieren</button></div>
+        </article>
+        <article class="day-card reveal">
+          <div class="card-top"><span>Heute im Stall</span><span>Montag</span></div>
+          <ul class="timeline"><li><time>07:00</time><div><b>Morgenfütterung</b><span>abgeschlossen</span></div><i>✓</i></li><li><time>08:30</time><div><b>Weidegang</b><span>läuft</span></div><i class="active">●</i></li><li><time>14:00</time><div><b>Hufschmied</b><span>3 Demo-Termine</span></div><i>→</i></li><li><time>18:00</time><div><b>Abendrunde</b><span>geplant</span></div><i>○</i></li></ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="services section" id="services">
+      <div class="section-label">03 · Services</div>
+      <div class="services-head reveal"><h2>Einfach organisiert.<br><span>Direkt im Stallportal.</span></h2><p>Die Funktionen zeigen, wie equiio den Alltag verbinden könnte. Auf dieser Testseite wird nichts versendet oder gespeichert.</p></div>
+      <div class="service-list">
+        <article class="service-row reveal"><span>01</span><div><h3>Hufschmied</h3><p>Freien Demo-Termin auswählen und den Ablauf testen.</p></div><button class="round-button open-booking" type="button" aria-label="Hufschmied-Demo öffnen">↗</button></article>
+        <article class="service-row reveal"><span>02</span><div><h3>Weideplanung</h3><p>Status, Gruppen und Zeitfenster auf einen Blick.</p></div><a class="round-button" href="#stall-live" aria-label="Weideplanung ansehen">↗</a></article>
+        <article class="service-row reveal"><span>03</span><div><h3>Stallnachrichten</h3><p>Wichtige Informationen dort, wo alle sie finden.</p></div><button class="round-button toast-trigger" type="button" aria-label="Nachrichten-Demo testen">↗</button></article>
+      </div>
+    </section>
+
+    <section class="booking section" id="hufschmied">
+      <div class="booking-copy reveal"><p class="kicker">Hufschmied-Demo</p><h2>Der nächste Termin.<br>In wenigen Schritten.</h2><p>Probiere die Oberfläche aus. Die Auswahl wird nur im Browser verarbeitet und weder gespeichert noch übertragen.</p><button class="button primary open-booking" type="button">Demo-Termin wählen</button></div>
+      <div class="phone reveal" aria-hidden="true"><div class="phone-top"><span>equiio</span><b>Demo</b></div><p>Nächste Termine</p><div class="slot selected"><time>24<br><small>JUL</small></time><div><b>Standardbeschlag</b><span>14:00 · Demo-Hof</span></div><i>✓</i></div><div class="slot"><time>31<br><small>JUL</small></time><div><b>Barhufpflege</b><span>10:30 · Demo-Hof</span></div><i>›</i></div><div class="slot"><time>07<br><small>AUG</small></time><div><b>Kontrolltermin</b><span>16:00 · Demo-Hof</span></div><i>›</i></div></div>
+    </section>
+
+    <section class="concept section" id="konzept">
+      <div class="section-label light">04 · Das Konzept</div>
+      <blockquote class="reveal">„Technik soll im Stall nicht auffallen.<br><em>Sie soll einfach helfen.</em>“</blockquote>
+      <div class="concept-meta"><p>equiio demo ist eine unverbindliche Designstudie ohne realen Betrieb, echte Tiere, Standort oder Anbieter.</p><div><span>Keine Cookies</span><span>Kein Tracking</span><span>Keine Übertragung</span></div></div>
     </section>
   </main>
-  <footer><p>© 2026 Reitstall Tempel · Testversion</p></footer>
+
+  <footer><div class="brand footer-brand"><span>e</span>equiio <small>demo</small></div><p>Anonyme Konzeptseite · Alle Angaben, Termine und Statuswerte sind fiktiv.</p><nav><a href="datenschutz.html">Datenschutz</a><a href="impressum.html">Demo-Hinweis</a><button id="privacy-info" type="button">Privatsphäre</button></nav><small>© 2026 equiio demo · Nicht kommerziell · Kein reales Angebot</small></footer>
+
+  <dialog id="booking-dialog"><button class="dialog-close" type="button" aria-label="Dialog schließen">×</button><p class="kicker">Interaktive Simulation</p><h2>Hufschmied-Termin</h2><form id="booking-form"><label>Leistung<select required><option value="">Bitte wählen</option><option>Barhufpflege</option><option>Standardbeschlag</option><option>Kontrolltermin</option></select></label><label>Demo-Termin<select required><option value="">Bitte wählen</option><option>24. Juli · 14:00 Uhr</option><option>31. Juli · 10:30 Uhr</option><option>7. August · 16:00 Uhr</option></select></label><label>Pferd (nur Demo-Bezeichnung)<input maxlength="24" placeholder="z. B. Pferd A" required></label><div class="privacy-note">🔒 Keine Übertragung, keine Speicherung, keine echte Reservierung.</div><button class="button primary" type="submit">Demo-Anfrage abschließen</button></form><div id="booking-success" hidden><div class="success-icon">✓</div><h3>Demo erfolgreich!</h3><p>So einfach könnte eine Anmeldung aussehen. Es wurden keine Daten gespeichert oder versendet.</p></div></dialog>
+  <div id="toast" role="status" aria-live="polite">Demo-Nachricht geöffnet — keine echten Mitteilungen vorhanden.</div>
 </body>
 </html>
