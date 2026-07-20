@@ -1,0 +1,26 @@
+[
+  {
+    "titel": "Demo: Ein neuer Weidebereich entsteht",
+    "date": "2026-07-20",
+    "kurztext": "Mehr Bewegung, klare Wege und ein ruhiger Übergang zwischen Stall und Weide: Diese Demo zeigt, wie Neuigkeiten künftig präsentiert werden.",
+    "text": [
+      "Für unsere Konzeptseite haben wir einen neuen Weidebereich geplant. Breite Zugänge, übersichtliche Gruppen und kurze Wege sollen zeigen, wie sich pferdegerechte Haltung und gute Organisation verbinden lassen.",
+      "Dieser Beitrag ist vollständig fiktiv und dient ausschließlich als Muster. Später kann Work aus einem Foto und wenigen Stichpunkten selbstständig einen neuen Eintrag erstellen."
+    ],
+    "image": "assets/aktuelles/demo-weide.svg",
+    "alt": "Illustrative Demoansicht zweier Pferde auf einer grünen Weide vor einem modernen Stall",
+    "demo": true
+  },
+  {
+    "titel": "Demo: Morgenroutine im Stall",
+    "date": "2026-06-15",
+    "kurztext": "Ein beispielhafter Blick auf ruhige Abläufe am frühen Morgen.",
+    "text": [
+      "Der Tag beginnt mit der Kontrolle der Pferde, der Fütterung und der Vorbereitung des Weidegangs. Klare Abläufe schaffen Ruhe für Mensch und Tier.",
+      "Auch dieser ältere Eintrag ist ein Demo-Beitrag. Er zeigt die geschlossene Archivdarstellung mit details und summary."
+    ],
+    "image": "assets/aktuelles/demo-stalltag.svg",
+    "alt": "Illustrative Demoansicht eines Pferdes im warm beleuchteten Stall am Morgen",
+    "demo": true
+  }
+]
