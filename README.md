@@ -5,10 +5,20 @@ Eine statische Test-Webseite für das equiio-Reitstallkonzept. Sie besteht aus H
 ## Dateien
 
 - `index.html` enthält die Startseite und Bereichsauswahl.
-- `anlage.html`, `einsteller.html`, `schulbetrieb.html` und `digitales.html` enthalten die Unterseiten.
-- `home.css`, `style.css` und `bereiche.css` enthalten die Gestaltung und Smartphone-Anpassungen.
-- `script.js` und `bereich-demo.js` enthalten die lokalen Demo-Funktionen.
-- `assets/` enthält die Bilder.
+- `anlage.html`, `einsteller.html`, `schulbetrieb.html`, `digitales.html` und `aktuelles.html` enthalten die Unterseiten.
+- `content/beitraege.json` enthält zentral alle Neuigkeiten.
+- `home.css`, `style.css`, `bereiche.css` und `aktuelles.css` enthalten die Gestaltung und Smartphone-Anpassungen.
+- `script.js`, `bereich-demo.js` und `aktuelles.js` enthalten die lokalen Demo-Funktionen.
+- `assets/` enthält die Bilder; Beitragsbilder liegen unter `assets/aktuelles/`.
+
+## Neuen Beitrag hinzufügen
+
+1. Das optimierte Beitragsbild unter `assets/aktuelles/` ablegen.
+2. In `content/beitraege.json` ein neues Objekt ergänzen.
+3. `titel`, `date` im Format `JJJJ-MM-TT`, `kurztext`, `text` als Liste von Absätzen, `image` und einen aussagekräftigen `alt`-Text ausfüllen.
+4. Für Musterinhalte `demo` auf `true` setzen; reale Beiträge erhalten `false`.
+
+Die Beiträge müssen nicht von Hand sortiert werden. `aktuelles.js` zeigt automatisch das neueste Datum oben vollständig und ältere Beiträge darunter geschlossen an. Ein neuer Beitrag kann künftig aus einem Foto und einigen Stichpunkten erstellt werden, solange Bildrechte, Inhalt und Alternativtext vor der Veröffentlichung geprüft werden.
 
 ## Deployment
 
